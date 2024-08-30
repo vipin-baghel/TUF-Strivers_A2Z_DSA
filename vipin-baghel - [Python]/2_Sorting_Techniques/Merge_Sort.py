@@ -1,4 +1,4 @@
-## Problem Statement: Implement the Insertion sorting algorithm.
+## Problem Statement: Implement the Merge sorting algorithm.
 # Input: N = 6, array[] = {13,46,24,52,20,9}
 # Output: 9,13,20,24,46,52
 #
