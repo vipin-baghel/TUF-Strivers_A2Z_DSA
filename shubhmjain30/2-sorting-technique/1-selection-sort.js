@@ -13,3 +13,22 @@
  *
  * Link: https://takeuforward.org/sorting/selection-sort-algorithm/
  */
+
+const selection_sort = (list) => {
+	for (let i = 0; i < list.length - 1; i++) {
+		let minIndex = i;
+		for (let j = i; j < list.length; j++) {
+			if (list[j] < list[minIndex]) {
+				minIndex = j;
+			}
+		}
+
+		let temp = list[minIndex];
+		list[minIndex] = list[i];
+		list[i] = temp;
+	}
+	return list;
+};
+
+console.log(selection_sort([13, 46, 24, 52, 20, 9]));
+console.log(selection_sort([5, 4, 3, 2, 1]));
