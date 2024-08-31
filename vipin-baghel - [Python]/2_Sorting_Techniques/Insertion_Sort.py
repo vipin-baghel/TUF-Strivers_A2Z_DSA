@@ -13,5 +13,20 @@
 # Link: https://takeuforward.org/data-structure/insertion-sort-algorithm/
 
 
+def insertion_sort(arr):
+    for i in range(1, len(arr)):
+        key = arr[i]
+        j = i - 1
+        while j >= 0 and key < arr[j]:
+            arr[j + 1] = arr[j]
+            j -= 1
+        arr[j + 1] = key
+
+
 if __name__ == "__main__":
-    pass
+    a = [13, 46, 24, 52, 20, 9]
+    b = [5, 4, 3, 2, 1, 0]
+    insertion_sort(a)
+    insertion_sort(b)
+    print(a)
+    print(b)
