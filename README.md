@@ -1,6 +1,6 @@
 # 📚 TUF-Strivers_A2Z_DSA
 
-Welcome to the TUF-Strivers_A2Z_DSA repository!  
+Welcome to the TUF-Strivers_A2Z_DSA repository!
 This project is dedicated to practicing Data Structures and Algorithms (DSA) collaboratively using the TUF platform. It aims to enhance our problem-solving skills, track our progress, and foster a competitive and supportive learning environment.
 
 🔗 [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
@@ -30,7 +30,7 @@ The repository is organized into the following main folders:
         - **recursion**: Recursive problems, including factorial, Fibonacci, etc.
             - Example: `factorial-of-a-number.js`
 
-    - **📊 2-sorting-technique**: This folder covers different sorting algorithms. Each file represents a specific sorting algorithm.
+    - **2-sorting-technique**: This folder covers different sorting algorithms. Each file represents a specific sorting algorithm.
 
         - Example: `quick-sort.js`
 
@@ -57,7 +57,7 @@ If you’re adding a solution to the "Check if a number is prime" problem, navig
 
 ### 📚 Resources
 
--   Refer to the `Notes/coding_patterns.md` file for common patterns and tips.
+-   **Refer and add materials** in the `Notes` folder to share helpful study resources and insights with others.
 -   Make use of the DSA A to Z Sheet as your guide.
 
 ### 🔍 Conclusion
