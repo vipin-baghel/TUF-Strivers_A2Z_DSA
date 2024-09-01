@@ -130,10 +130,6 @@ def pattern_12(n):
         print()
         i+=1
 
-def ispalindrome(n):
-    l=0
-    r=len(n)-1
-    while l<r:
          
         
 
