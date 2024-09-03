@@ -17,3 +17,4 @@ const find_largest = (list) => {
 
 console.log(find_largest([2, 5, 1, 3, 0]));
 console.log(find_largest([8, 10, 5, 7, 9]));
+console.log(find_largest([10, 120, 99, 1233]));
