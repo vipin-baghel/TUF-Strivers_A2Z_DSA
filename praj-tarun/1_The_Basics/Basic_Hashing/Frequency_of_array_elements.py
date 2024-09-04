@@ -1,0 +1,4 @@
+def hash(arr):
+    a = {}
+
+            
