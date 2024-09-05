@@ -51,13 +51,28 @@ def remove_duplicates(arr):
         n-=1
     print(arr)
 
+def left_rotate_one(arr):
+    for i in range(len(arr)-1):
+        arr[i],arr[i+1]=arr[i+1],arr[i]
+    print(arr)
+
+def left_rotate_d(arr,d):
+    c = 0
+    if d>0:
+        for i in range(len(arr)-1):
+            arr[i],arr[i+1]=arr[i+1],arr[i]
+        
+        left_rotate_d(arr,d-1)
+    return arr
+    
+
 #--------------------------------------------
 
 def main():
     arr = [1,2,3,4,4,5,5,5]
 
-    remove_duplicates(arr)
-
+    result = left_rotate_d(arr,3)
+    print(result)
 
 if __name__ == "__main__":
     main()
