@@ -17,3 +17,9 @@ arr = [10,3,8,5,6,1]
 
 bubble_sort(arr)
 print(arr)
+
+
+#complexities: 
+# Time: n^2
+#with optimization best will be O(n)
+# space complerity : O(1)
