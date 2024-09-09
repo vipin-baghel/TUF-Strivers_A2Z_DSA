@@ -11,5 +11,3 @@ arr = [11,4,1,3,4,2]
 recursive_bubble(arr,0,len(arr)-1)
 
 print(arr)
-
-#test
