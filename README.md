@@ -17,7 +17,7 @@ The repository is organized into the following main folders:
 
 1. **📝 Notes**: Contains general notes and patterns relevant to coding problems. Use `coding_patterns.md` to document any patterns or important notes.
 
-2. **[your-username]**: Replace `[your-username]` with your GitHub username or preferred identifier. This is where all your contributions will be organized.
+2. **👤 [your-username]**: Replace `[your-username]` with your GitHub username or preferred identifier. This is where all your contributions will be organized.
 
     - **1-basic**: This folder covers the basics, including hashing, maths, patterns, recursion, and generate. Each subfolder contains specific problems and their solutions.
 
