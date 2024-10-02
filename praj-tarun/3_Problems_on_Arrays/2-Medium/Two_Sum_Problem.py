@@ -33,3 +33,4 @@ def two_sum_index(arr,s):
 arr = [1,2,3,4,5,6]
 s = 9
 two_sum_index(arr,s)
+
