@@ -24,5 +24,41 @@ const rearrange_by_sign_v1 = (list) => {
 	return res;
 };
 
+const rearrange_by_sign_v2 = (list) => {
+	let posList = [];
+	let negList = [];
+	let res = [];
+
+	for (let i = 0; i < list.length; i++) {
+		if (list[i] < 0) {
+			negList.push(list[i]);
+		} else {
+			posList.push(list[i]);
+		}
+	}
+
+	let i = 0;
+
+	while (i < posList.length && i < negList.length) {
+		res.push(posList[i]);
+		res.push(negList[i]);
+		i++;
+	}
+
+	while (i < posList.length) {
+		res.push(posList[i]);
+		i++;
+	}
+
+	while (i < negList.length) {
+		res.push(negList[i]);
+		i++;
+	}
+
+	return res;
+};
+
 console.log(rearrange_by_sign_v1([1, 2, -4, -5]));
 console.log(rearrange_by_sign_v1([1, 2, 3, -1, -2, -3]));
+console.log(rearrange_by_sign_v2([1, 2, -3, -7, -9, -4, -5]));
+console.log(rearrange_by_sign_v2([1, 2, 3, 4, 5, -1, -2, -3]));
