@@ -13,11 +13,23 @@ def bubble_sort(arr):
         i-=1
     return arr
 
+def bub(arr):
+    n = len(arr)-1
+    while n>=0:
+        for i in range(n):
+            if arr[i]>arr[i+1]:
+                arr[i],arr[i+1] = arr[i+1],arr[i]
+        n-=1
+    return arr
+
+
 arr = [10,3,8,5,6,1]
 
 bubble_sort(arr)
 print(arr)
 
+bub(arr)
+print(arr)
 
 #complexities: 
 # Time: n^2
